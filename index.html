@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <script src="./kaboom.js"></script>
+    <script src="./main.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <head>
+        <title>Main Menu</title>
+    </head>
+    <body>
+        <input id="button" class="source" type="button" onclick='hidebutton(),playGame()' value="Play">
+        <script type="text/javascript">
+            function hidebutton(){
+                const button = document.getElementById('button');
+                button.style.display = 'none';
+            }
+            //somehow makes canvas spawn twice, maybe use to select canvas
+            // function click(){
+            //     document.getElementsByClassName('canvas').click();
+            // }
+        </script>
+    </body>
+</html>
